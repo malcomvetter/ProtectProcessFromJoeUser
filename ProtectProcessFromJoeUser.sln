@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{F2A8EC08-2E63-48DD-8742-F05AD5E917E1}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ProtectProcess", "ProtectProcess\ProtectProcess.shproj", "{4E7F39C0-4F19-4B3B-8B84-94D70855E1B4}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ProtectProcess\ProtectProcess.projitems*{4e7f39c0-4f19-4b3b-8b84-94d70855e1b4}*SharedItemsImports = 13
+		ProtectProcess\ProtectProcess.projitems*{f2a8ec08-2e63-48dd-8742-f05ad5e917e1}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2A8EC08-2E63-48DD-8742-F05AD5E917E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A8EC08-2E63-48DD-8742-F05AD5E917E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A8EC08-2E63-48DD-8742-F05AD5E917E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A8EC08-2E63-48DD-8742-F05AD5E917E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D957C2A0-11EE-403B-8EA2-BBBA64AFE4B5}
+	EndGlobalSection
+EndGlobal
